@@ -9,6 +9,12 @@
     <artifactId>selenium-java</artifactId>
     <version>4.28.1</version>
 </dependency>
+<dependency>
+<!-- https://stackoverflow.com/questions/66801256/java-lang-illegalaccesserror-class-lombok-javac-apt-lombokprocessor-cannot-acce -->
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.28</version>
+</dependency>
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
