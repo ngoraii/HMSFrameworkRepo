@@ -15,10 +15,10 @@ import com.hms.generic.objectrepository.UserDashboardPage;
 /**
  * @author ngorai patient profile create account book and cancel appointment
  */
-public class patientAppointment extends BaseClass {
+public class patientAppointmentTest extends BaseClass {
 
 	@Test
-	public void bookAndCancelAppointment() throws IOException, ParseException {
+	public void bookAndCancelAppointmentTest() throws IOException, ParseException {
 		/*
 		 * click book appointment
 		 */

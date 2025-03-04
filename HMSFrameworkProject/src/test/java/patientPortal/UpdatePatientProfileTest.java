@@ -15,10 +15,10 @@ import com.hms.generic.objectrepository.UserDashboardPage;
 import com.hms.generic.objectrepository.UserLoginPage;
 import com.hms.generic.objectrepository.UserRegistrationPage;
 
-public class UpdatePatientProfile extends BaseClass {
+public class UpdatePatientProfileTest extends BaseClass {
 
 	@Test
-	public void updateCity() throws EncryptedDocumentException, IOException, ParseException {
+	public void updateCityTest() throws EncryptedDocumentException, IOException, ParseException {
 		
 		/*
 		 * goto profile update page
@@ -36,7 +36,7 @@ public class UpdatePatientProfile extends BaseClass {
 	}
 
 	@Test
-	public void updatePatientPassword() throws EncryptedDocumentException, IOException, ParseException, InterruptedException {
+	public void updatePatientPasswordTest() throws EncryptedDocumentException, IOException, ParseException, InterruptedException {
 		
 		/*
 		 * goto profile update page and click change password
