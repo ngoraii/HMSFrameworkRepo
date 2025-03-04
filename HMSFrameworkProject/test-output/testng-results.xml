@@ -1,75 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-25T10:46:30 IST" name="Suite" finished-at="2025-02-25T10:47:36 IST" duration-ms="65907">
+  <suite started-at="2025-03-04T10:29:29 IST" name="Suite" finished-at="2025-03-04T10:30:33 IST" duration-ms="64552">
     <groups>
     </groups>
-    <test started-at="2025-02-25T10:46:30 IST" name="Test" finished-at="2025-02-25T10:47:36 IST" duration-ms="65907">
-      <class name="patientPortal.UpdatePatientProfile">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:46:30 IST" name="configBS" finished-at="2025-02-25T10:46:30 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:46:30 IST" name="configBC" finished-at="2025-02-25T10:46:35 IST" duration-ms="5258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:46:35 IST" name="configBM" finished-at="2025-02-25T10:46:50 IST" duration-ms="14597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="updateCity()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:46:50 IST" name="updateCity" finished-at="2025-02-25T10:46:54 IST" duration-ms="3699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateCity -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:46:54 IST" name="configAM" finished-at="2025-02-25T10:46:55 IST" duration-ms="880" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:46:55 IST" name="configBM" finished-at="2025-02-25T10:47:08 IST" duration-ms="13333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="updatePatientPassword()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:47:08 IST" name="updatePatientPassword" finished-at="2025-02-25T10:47:15 IST" duration-ms="6585" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePatientPassword -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:47:15 IST" name="configAM" finished-at="2025-02-25T10:47:16 IST" duration-ms="764" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:47:16 IST" name="configAC" finished-at="2025-02-25T10:47:17 IST" duration-ms="1348" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:patientPortal.UpdatePatientProfile@942a29c]" started-at="2025-02-25T10:47:36 IST" name="configAS" finished-at="2025-02-25T10:47:36 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- patientPortal.UpdatePatientProfile -->
+    <test started-at="2025-03-04T10:29:29 IST" name="Test1" finished-at="2025-03-04T10:30:25 IST" duration-ms="55964">
       <class name="patientPortal.patientAppointment">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:patientPortal.patientAppointment@576d5deb]" started-at="2025-02-25T10:47:17 IST" name="configBC" finished-at="2025-02-25T10:47:20 IST" duration-ms="2936" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:patientPortal.patientAppointment@130c12b7]" started-at="2025-03-04T10:29:29 IST" name="configBC" finished-at="2025-03-04T10:29:44 IST" duration-ms="15059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:patientPortal.patientAppointment@576d5deb]" started-at="2025-02-25T10:47:20 IST" name="configBM" finished-at="2025-02-25T10:47:30 IST" duration-ms="10364" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:patientPortal.patientAppointment@130c12b7]" started-at="2025-03-04T10:29:44 IST" name="configBM" finished-at="2025-03-04T10:30:10 IST" duration-ms="25682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="bookAndCancelAppointment()[pri:0, instance:patientPortal.patientAppointment@576d5deb]" started-at="2025-02-25T10:47:30 IST" name="bookAndCancelAppointment" finished-at="2025-02-25T10:47:34 IST" duration-ms="3957" status="PASS">
+        <test-method signature="bookAndCancelAppointment()[pri:0, instance:patientPortal.patientAppointment@130c12b7]" started-at="2025-03-04T10:30:10 IST" name="bookAndCancelAppointment" finished-at="2025-03-04T10:30:19 IST" duration-ms="9061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookAndCancelAppointment -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:patientPortal.patientAppointment@576d5deb]" started-at="2025-02-25T10:47:34 IST" name="configAM" finished-at="2025-02-25T10:47:35 IST" duration-ms="588" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:patientPortal.patientAppointment@130c12b7]" started-at="2025-03-04T10:30:19 IST" name="configAM" finished-at="2025-03-04T10:30:20 IST" duration-ms="1186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:patientPortal.patientAppointment@576d5deb]" started-at="2025-02-25T10:47:35 IST" name="configAC" finished-at="2025-02-25T10:47:36 IST" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:patientPortal.patientAppointment@130c12b7]" started-at="2025-03-04T10:30:20 IST" name="configAC" finished-at="2025-03-04T10:30:25 IST" duration-ms="4465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
       </class> <!-- patientPortal.patientAppointment -->
-    </test> <!-- Test -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-03-04T10:29:29 IST" name="Test2" finished-at="2025-03-04T10:30:33 IST" duration-ms="64550">
+      <class name="patientPortal.UpdatePatientProfile">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:29:29 IST" name="configBS" finished-at="2025-03-04T10:29:29 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:29:29 IST" name="configBC" finished-at="2025-03-04T10:29:55 IST" duration-ms="25902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:29:55 IST" name="configBM" finished-at="2025-03-04T10:30:10 IST" duration-ms="15045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="updateCity()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:30:10 IST" name="updateCity" finished-at="2025-03-04T10:30:13 IST" duration-ms="3730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCity -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:30:14 IST" name="configAM" finished-at="2025-03-04T10:30:15 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:30:15 IST" name="configBM" finished-at="2025-03-04T10:30:26 IST" duration-ms="10744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="updatePatientPassword()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:30:26 IST" name="updatePatientPassword" finished-at="2025-03-04T10:30:32 IST" duration-ms="6453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePatientPassword -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:30:32 IST" name="configAM" finished-at="2025-03-04T10:30:33 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:30:33 IST" name="configAC" finished-at="2025-03-04T10:30:33 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:patientPortal.UpdatePatientProfile@76a4ebf2]" started-at="2025-03-04T10:30:33 IST" name="configAS" finished-at="2025-03-04T10:30:33 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- patientPortal.UpdatePatientProfile -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

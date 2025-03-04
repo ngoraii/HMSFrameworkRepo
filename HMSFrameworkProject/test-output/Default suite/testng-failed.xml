@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="patientPortal.UpdatePatientProfile">
+      <class name="patientPortal.patientAppointment">
         <methods>
+          <include name="bookAndCancelAppointment"/>
           <include name="configBS"/>
           <include name="configBC"/>
-          <include name="updatePatientPassword"/>
           <include name="configAS"/>
           <include name="configAC"/>
           <include name="configAM"/>
           <include name="configBM"/>
         </methods>
-      </class> <!-- patientPortal.UpdatePatientProfile -->
+      </class> <!-- patientPortal.patientAppointment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

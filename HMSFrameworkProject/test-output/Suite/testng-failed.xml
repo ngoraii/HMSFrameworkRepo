@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.hms.generic.listenersutility.ListenerImp"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="patientPortal.UpdatePatientProfile">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="updateCity"/>
+          <include name="updatePatientPassword"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- patientPortal.UpdatePatientProfile -->
+      <class name="patientPortal.patientAppointment">
+        <methods>
+          <include name="bookAndCancelAppointment"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- patientPortal.patientAppointment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

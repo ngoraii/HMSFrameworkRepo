@@ -22,6 +22,7 @@ import com.hms.generic.objectrepository.TekPyramidDomainListPage;
 import com.hms.generic.objectrepository.UserDashboardPage;
 import com.hms.generic.objectrepository.UserLoginPage;
 import com.hms.generic.objectrepository.UserRegistrationPage;
+import com.hms.generic.utilityclassobject.UtilityClassObject;
 import com.hms.generic.webdriverutility.WebDriverUtility;
 
 public class BaseClass {
@@ -46,12 +47,9 @@ public class BaseClass {
 		 */
 		String browser = System.getProperty("browser", jsonLib.getJSONData("browser"));
 		driver = wLib.getDriver(browser);
+		UtilityClassObject.setDriver(driver);
 		driver.manage().window().maximize();
 		wLib.waitToLoadPageImplicitWait();
-	}
-
-	@BeforeMethod
-	public void configBM() throws IOException, ParseException {
 		/*
 		 * Open the browser and enter the url
 		 */
@@ -65,6 +63,10 @@ public class BaseClass {
 		ProjectListPage projList = new ProjectListPage(driver);
 		projList.clickHMSProjectButton();
 		wLib.switchToTabByPartialurl("Hospital_Management_System");
+	}
+
+	@BeforeMethod
+	public void configBM() throws IOException, ParseException {
 		/*
 		 * click on patient login click here button
 		 */
