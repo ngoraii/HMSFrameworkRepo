@@ -69,7 +69,7 @@ public class UserBookAppointmentPage {
 		return submitButton;
 	}
 	public void enterDoctorDetailsAndSubmit() throws EncryptedDocumentException, IOException {
-		wLib.scrollByJS(driver, 100);
+		wLib.scrollByJS(driver);
 		doctorName=eLib.getExcelData("docApp", 1, 1);
 		jLib.selectByVisibleText(doctorSpecializationDP, eLib.getExcelData("docApp", 1, 0));
 		jLib.selectByVisibleText(doctorsDP, doctorName);

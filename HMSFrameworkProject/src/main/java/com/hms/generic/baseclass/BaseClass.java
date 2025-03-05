@@ -88,7 +88,7 @@ public class BaseClass {
 		/*
 		 * click on submit button
 		 */
-		wLib.scrollByJS(driver, 100);
+		wLib.scrollByJS(driver);
 		regPage.clickSubmitButton();
 		/*
 		 * successfully registered pop up should be displayed
@@ -99,7 +99,7 @@ public class BaseClass {
 		/*
 		 * login as user
 		 */
-		wLib.scrollByJS(driver, 100);
+		wLib.scrollByJS(driver);
 		regPage.clicLoginLink();
 		String un = regPage.getEmail();
 		String pwd = regPage.getPassword();

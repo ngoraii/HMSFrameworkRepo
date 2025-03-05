@@ -6,6 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -50,9 +51,9 @@ public class WebDriverUtility {
 	public void maximizeWindow() {
 		driver.manage().window().maximize();
 	}
-	public void scrollByJS(WebDriver driver, int yAxis) {
+	public void scrollByJS(WebDriver driver) {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
-		js.executeScript("window.scrollBy(0,"+yAxis+")");
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 	}
 	
 

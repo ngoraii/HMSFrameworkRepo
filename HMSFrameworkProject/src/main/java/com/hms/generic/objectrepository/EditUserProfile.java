@@ -56,7 +56,7 @@ public class EditUserProfile {
 	public void updateCity(String newCity) {
 		cityTextField.clear();
 		cityTextField.sendKeys(newCity);
-		wLib.scrollByJS(driver, 500);
+		wLib.scrollByJS(driver);
 		submitButton.click();
 	}
 

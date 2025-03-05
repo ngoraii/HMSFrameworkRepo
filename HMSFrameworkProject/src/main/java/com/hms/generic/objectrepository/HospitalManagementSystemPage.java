@@ -22,7 +22,7 @@ public class HospitalManagementSystemPage {
 	}
 	
 	public void clickPatientLoginButton() {
-		wLib.scrollByJS(driver,100);
+		wLib.scrollByJS(driver);
 		patientLoginButton.click();
 	}
 }
