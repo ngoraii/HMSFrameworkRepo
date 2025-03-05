@@ -10,23 +10,25 @@ import com.hms.generic.webdriverutility.WebDriverUtility;
 
 public class HospitalManagementSystemPage {
 	WebDriver driver;
-	WebDriverUtility wLib= new WebDriverUtility();
+	WebDriverUtility wLib = new WebDriverUtility();
+
 	public HospitalManagementSystemPage(WebDriver driver) {
-		this.driver=driver;
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//a[@href='hms/user-login.php']")
+
+	@FindBy(xpath = "(//a[.='Click Here'])[1]")
 	private WebElement patientLoginButton;
-	
+
 	public WebElement getPatientLoginButton() {
 		return patientLoginButton;
 	}
-	
+
 	public void clickPatientLoginButton() {
-		
-		JavascriptExecutor js=(JavascriptExecutor)driver;
-		
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
 		js.executeScript("arguments[0].click();", patientLoginButton);
-		
+
 	}
 }
