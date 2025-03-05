@@ -17,7 +17,7 @@ public class HospitalManagementSystemPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "(//a[.='Click Here'])[1]")
+	@FindBy(xpath = "//h3[text()='Patients']/parent::div/descendant::a[text()='Click Here']")
 	private WebElement patientLoginButton;
 
 	public WebElement getPatientLoginButton() {
