@@ -69,7 +69,7 @@ public class BaseClass {
 	}
 
 	@BeforeMethod
-	public void configBM() throws IOException, ParseException {
+	public void configBM() throws IOException, ParseException, InterruptedException {
 		/*
 		 * click on patient login click here button
 		 */

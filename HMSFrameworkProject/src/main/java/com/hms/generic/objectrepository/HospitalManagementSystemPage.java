@@ -21,8 +21,9 @@ public class HospitalManagementSystemPage {
 		return patientLoginButton;
 	}
 	
-	public void clickPatientLoginButton() {
+	public void clickPatientLoginButton() throws InterruptedException {
 		wLib.scrollByJS(driver);
+		Thread.sleep(1000);
 		patientLoginButton.click();
 	}
 }
