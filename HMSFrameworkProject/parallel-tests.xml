@@ -6,12 +6,12 @@
 </listeners>
   <test name="Test1">
     <classes>
-      <class name="patientPortal.patientAppointment"/>
+      <class name="patientPortal.patientAppointmentTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test2">
   	<classes>
-  		<class name="patientPortal.UpdatePatientProfile"/>
+  		<class name="patientPortal.UpdatePatientProfileTest"/>
   	</classes>
   </test>
 </suite> <!-- Suite -->
