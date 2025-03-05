@@ -6,8 +6,8 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="patientPortal.UpdatePatientProfile"/>
-      <class name="patientPortal.patientAppointment"/>
+      <class name="patientPortal.UpdatePatientProfileTest"/>
+      <class name="patientPortal.patientAppointmentTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
