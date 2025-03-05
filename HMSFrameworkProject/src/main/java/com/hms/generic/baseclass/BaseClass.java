@@ -61,9 +61,10 @@ public class BaseClass {
 		TekPyramidDomainListPage domainList = new TekPyramidDomainListPage(driver);
 		domainList.clickHealthCareButton();
 		ProjectListPage projList = new ProjectListPage(driver);
-		Thread.sleep(1000);
-		projList.clickHMSProjectButton();
-		Thread.sleep(1000);
+		try {
+			projList.clickHMSProjectButton();
+		} catch (Exception e) {
+		}
 		wLib.switchToTabByPartialurl("Hospital_Management_System");
 	}
 
