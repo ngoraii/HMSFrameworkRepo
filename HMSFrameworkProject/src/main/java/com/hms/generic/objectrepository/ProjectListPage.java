@@ -11,7 +11,7 @@ public class ProjectListPage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(partialLinkText="Hospital Management System")
+	@FindBy(partialLinkText="Hospital Management")
 	private WebElement hmsProjectButton;
 	
 	public WebElement getHMSProjectButton() {

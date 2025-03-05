@@ -41,7 +41,7 @@ public class BaseClass {
 	}
 
 	@BeforeClass
-	public void configBC() throws IOException, ParseException {
+	public void configBC() throws IOException, ParseException, InterruptedException {
 		/*
 		 * launching browser
 		 */
@@ -61,7 +61,9 @@ public class BaseClass {
 		TekPyramidDomainListPage domainList = new TekPyramidDomainListPage(driver);
 		domainList.clickHealthCareButton();
 		ProjectListPage projList = new ProjectListPage(driver);
+		Thread.sleep(1000);
 		projList.clickHMSProjectButton();
+		Thread.sleep(1000);
 		wLib.switchToTabByPartialurl("Hospital_Management_System");
 	}
 

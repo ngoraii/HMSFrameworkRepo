@@ -6,7 +6,6 @@ import java.util.Set;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -27,7 +26,6 @@ public class WebDriverUtility {
 		else
 			driver = new ChromeDriver();
 		return driver;
-		
 
 	}
 
@@ -48,21 +46,14 @@ public class WebDriverUtility {
 	public void waitToLoadPageImplicitWait() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
+
 	public void maximizeWindow() {
 		driver.manage().window().maximize();
 	}
+
 	public void scrollByJS(WebDriver driver) {
-		JavascriptExecutor js=(JavascriptExecutor)driver;
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-				}
-		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			}
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");	
 	}
-	
 
 }
