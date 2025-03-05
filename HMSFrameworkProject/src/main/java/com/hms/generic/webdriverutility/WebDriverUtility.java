@@ -53,7 +53,15 @@ public class WebDriverUtility {
 	}
 	public void scrollByJS(WebDriver driver) {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+				}
 		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			}
 	}
 	
 
