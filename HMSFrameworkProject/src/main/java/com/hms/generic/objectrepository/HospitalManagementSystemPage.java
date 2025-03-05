@@ -24,10 +24,10 @@ public class HospitalManagementSystemPage {
 		return patientLoginButton;
 	}
 
-	public void clickPatientLoginButton() {
+	public void clickPatientLoginButton() throws InterruptedException {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-
+		Thread.sleep(3000);
 		js.executeScript("arguments[0].click();", patientLoginButton);
 
 	}

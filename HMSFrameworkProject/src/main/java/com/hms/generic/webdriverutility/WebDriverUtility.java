@@ -44,7 +44,7 @@ public class WebDriverUtility {
 	}
 
 	public void waitToLoadPageImplicitWait() {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	public void maximizeWindow() {
