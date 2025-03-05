@@ -1,5 +1,6 @@
 package com.hms.generic.objectrepository;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,8 +23,10 @@ public class HospitalManagementSystemPage {
 	}
 	
 	public void clickPatientLoginButton() throws InterruptedException {
-		wLib.scrollByJS(driver);
+		
+		JavascriptExecutor js=(JavascriptExecutor)driver;
 		Thread.sleep(1000);
+		js.executeScript("arguments[0].scrollIntoView();", patientLoginButton);
 		patientLoginButton.click();
 	}
 }
