@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.hms.generic.listenersutility.ListenerImp"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="patientPortal.UpdatePatientProfileTest">
+        <methods>
+          <include name="updateCityTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="updatePatientPasswordTest"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- patientPortal.UpdatePatientProfileTest -->
       <class name="patientPortal.patientAppointmentTest">
         <methods>
           <include name="configBS"/>
@@ -15,5 +30,5 @@
         </methods>
       </class> <!-- patientPortal.patientAppointmentTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

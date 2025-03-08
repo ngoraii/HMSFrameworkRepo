@@ -6,29 +6,29 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="patientPortal.UpdatePatientProfile">
+      <class name="patientPortal.UpdatePatientProfileTest">
         <methods>
+          <include name="updateCityTest"/>
           <include name="configBS"/>
           <include name="configBC"/>
-          <include name="updateCity"/>
-          <include name="updatePatientPassword"/>
+          <include name="updatePatientPasswordTest"/>
           <include name="configAS"/>
           <include name="configAC"/>
           <include name="configAM"/>
           <include name="configBM"/>
         </methods>
-      </class> <!-- patientPortal.UpdatePatientProfile -->
-      <class name="patientPortal.patientAppointment">
+      </class> <!-- patientPortal.UpdatePatientProfileTest -->
+      <class name="patientPortal.patientAppointmentTest">
         <methods>
-          <include name="bookAndCancelAppointment"/>
           <include name="configBS"/>
           <include name="configBC"/>
           <include name="configAS"/>
           <include name="configAC"/>
+          <include name="bookAndCancelAppointmentTest"/>
           <include name="configAM"/>
           <include name="configBM"/>
         </methods>
-      </class> <!-- patientPortal.patientAppointment -->
+      </class> <!-- patientPortal.patientAppointmentTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
