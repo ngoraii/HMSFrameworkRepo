@@ -76,6 +76,7 @@ public class BaseClass {
 
 		HospitalManagementSystemPage hms = new HospitalManagementSystemPage(driver);
 		
+		
 		hms.clickPatientLoginButton();
 
 		/*
